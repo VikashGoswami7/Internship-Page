@@ -1,0 +1,262 @@
+.intro {
+  height: 51vh;
+  width: 100vw;
+  background: linear-gradient(
+    90deg,
+    #127b93 0%,
+    #6e5195 43.23%,
+    #9b363c 97.92%
+  );
+  display: flex;
+}
+
+.intro-l {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding-left: 9vw;
+}
+.intro-l > :nth-child(1) {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intro-l > :nth-child(2) {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intro-l > :nth-child(3) {
+  font-size: 14px;
+  margin-top: 2vh;
+  width: 75%;
+}
+.intro-r {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.intro-r > img {
+  transform: scale(1);
+  padding-right: 4vw;
+}
+
+@media (max-width: 480px) {
+  .intro {
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(
+      180deg,
+      #127b93 0%,
+      #6e5195 43.23%,
+      #9b363c 97.92%
+    );
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .intro-l > :nth-child(1) {
+    font-size: 8vw;
+  }
+
+  .intro-l > :nth-child(2) {
+    font-size: 8vw;
+    text-align: left;
+  }
+
+  .intro-l > :nth-child(3) {
+    font-size: 3vw;
+    margin-top: 2vh;
+    width: 72%;
+  }
+  .intro-r {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-r > img {
+    transform: scale(0.6);
+    padding-inline: 1vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .intro {
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(
+      180deg,
+      #127b93 0%,
+      #6e5195 43.23%,
+      #9b363c 97.92%
+    );
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .intro-l > :nth-child(1) {
+    font-size: 7vw;
+  }
+
+  .intro-l > :nth-child(2) {
+    font-size: 7vw;
+    text-align: left;
+  }
+
+  .intro-l > :nth-child(3) {
+    font-size: 2.5vw;
+    margin-top: 2vh;
+    width: 72%;
+    text-align: center;
+  }
+  .intro-r {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-r > img {
+    transform: scale(0.8);
+    padding-inline: 1vw;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 910px){
+
+  .intro {
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient( 180deg, #127b93 0%, #6e5195 43.23%, #9b363c 97.92% );
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .intro-l > :nth-child(1) {
+    font-size: 5vw;
+  }
+
+  .intro-l > :nth-child(2) {
+    font-size: 5vw;
+    text-align: left;
+  }
+
+  .intro-l > :nth-child(3) {
+    font-size: 1.5vw;
+    margin-top: 2vh;
+    width: 60%;
+    text-align: center;
+  }
+  .intro-r {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-r > img {
+    transform: scale(0.9);
+    padding-inline: 1vw;
+  }
+}
+@media (min-width: 911px) and (max-width: 1250px){
+
+  .intro {
+    height: 60vh;
+    width: 100vw;
+    background: linear-gradient( 180deg, #127b93 0%, #6e5195 43.23%, #9b363c 97.92% );
+    display: flex;
+    padding: 0 1vw;
+    
+  }
+
+  .intro-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .intro-l > :nth-child(1) {
+    font-size: 4vw;
+  }
+
+  .intro-l > :nth-child(2) {
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .intro-l > :nth-child(3) {
+    font-size: 1.2vw;
+    margin-top: 2vh;
+    width: 62%;
+    text-align: center;
+  }
+  .intro-r {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-r > img {
+    transform: scale(0.9);
+    padding-inline: 2vw;
+  }
+}
+
+
+
+
+
